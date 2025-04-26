@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.placeholder-custom::placeholder {
+  font-size: 14px;
+  color: #6c757d;
+  letter-spacing: 0.05em;
+  font-family: "Roboto", sans-serif;
+}
+
+.deal-images1:hover {
+  box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.1),
+    0 -3px 5px -5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.deal-images1:hover img,
+.deal-images2:hover img,
+.deal-images3:hover img {
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+.deal-images2:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.deal-images3:hover {
+  box-shadow: -7px 5px 15px -4px rgba(0, 0, 0, 0.1),
+    0 -3px 5px -5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.sweep-transition:hover {
+  background: #000000;
+  transition: background 0.5s ease;
+}
